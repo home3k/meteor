@@ -79,8 +79,9 @@ public class Meteor {
 
     private void startBodyRotation() {
 
-        final Animation rotateAnimation = new
+        final RotateAnimation rotateAnimation = new
                 RotateAnimation(0f, 360f, Animation.RELATIVE_TO_PARENT, 0.1f, Animation.RELATIVE_TO_PARENT, 0.1f);
+        rotateAnimation.setDuration(1000);
         this.bodyView.startAnimation(rotateAnimation);
 
     }

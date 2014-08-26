@@ -10,6 +10,8 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
+import android.view.animation.Animation;
+import android.view.animation.RotateAnimation;
 
 public class MainActivity extends Activity {
 
@@ -22,6 +24,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                startBodyRotation();
                 Meteor meteor = new Meteor(MainActivity.this, Color.BLUE,100,100,100f,1000);
                 meteor.configureMeteorBody(ShapeType.polygon,10).configureMeteorTail(ShapeType.circle,10,3).startMeteor();
 //                ParticleSystem particleSystem = new ParticleSystem(MainActivity.this, 10, 10000, ShapeFactory.getDrawing(ShapeType.circle), Color.CYAN, 5);
@@ -35,6 +38,16 @@ public class MainActivity extends Activity {
             }
         });
 
+
+    }
+
+
+    private void startBodyRotation() {
+
+        final RotateAnimation rotateAnimation = new
+                RotateAnimation(0f, 360f, Animation.RELATIVE_TO_PARENT, 0.1f, Animation.RELATIVE_TO_PARENT, 0.1f);
+        rotateAnimation.setDuration(1000);
+        findViewById(R.id.button1).startAnimation(rotateAnimation);
 
     }
 
