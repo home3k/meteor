@@ -57,13 +57,14 @@ public class Meteor {
 
     public Meteor configureMeteorTail(ShapeType shapeType, int numbers, float... shapeLenParams) {
         this.particleNumbers = numbers;
-        Bitmap bitmap = ShapeFactory.getShape(activity, shapeType, color, shapeLenParams);
-        particleSystem = new ParticleSystem(activity, numbers, bitmap, 10000);
-        particleSystem.setScaleRange(0.7f, 1.3f);
-        particleSystem.setSpeedModuleAndAngleRange(0.2f, 0.5f, 0, 180);
+        //Bitmap bitmap = ShapeFactory.getShape(activity, shapeType, color, shapeLenParams);
+        particleSystem = new ParticleSystem(activity, numbers, 10000, ShapeFactory.getDrawing(shapeType), this.color, shapeLenParams);
+        particleSystem.setScaleRange(1.0f, 1.1f);
+        particleSystem.setSpeedModuleAndAngleRange(0.1f, 0.2f, 10, 20);
         particleSystem.setRotationSpeedRange(90, 180);
-        particleSystem.setAcceleration(0.0004f, 90);
-        particleSystem.setFadeOut(200, new AccelerateInterpolator());
+        //particleSystem.setAcceleration(0.0004f, 90);
+        particleSystem.setFadeOut(1, new AccelerateInterpolator());
+        particleSystem.oneShot(this.bodyView, 200);
         return this;
     }
 
@@ -79,13 +80,13 @@ public class Meteor {
     private void startBodyRotation() {
 
         final Animation rotateAnimation = new
-                RotateAnimation(0f, 360f, Animation.RELATIVE_TO_PARENT, 0.5f, Animation.RELATIVE_TO_PARENT, 0.5f);
+                RotateAnimation(0f, 360f, Animation.RELATIVE_TO_PARENT, 0.1f, Animation.RELATIVE_TO_PARENT, 0.1f);
         this.bodyView.startAnimation(rotateAnimation);
 
     }
 
     private void stopBodyRotation() {
-       this.bodyView.clearAnimation();
+        this.bodyView.clearAnimation();
 
     }
 }

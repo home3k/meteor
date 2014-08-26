@@ -28,11 +28,12 @@ public class ShapeFactory {
     private static Map<String, Bitmap> bitmapCache = new ConcurrentHashMap<String, Bitmap>();
     private static Point middlePoint;
 
-    public static Bitmap getShape(Context context, ShapeType shapeType, int color, float... lengthParams) {
-        String cacheKey = getCacheKey(shapeType, color, lengthParams);
-        if (bitmapCache.containsKey(cacheKey)) {
-            return bitmapCache.get(cacheKey);
-        }
+    /**
+     *
+     * @param shapeType
+     * @return
+     */
+    public static Drawing getDrawing(ShapeType shapeType) {
         Drawing drawing;
         switch (shapeType) {
             case circle:
@@ -44,12 +45,21 @@ public class ShapeFactory {
             default:
                 drawing = new CircleDrawing();
         }
+        return drawing;
+    }
+
+    public static Bitmap getShape(Context context, ShapeType shapeType, int color, float... lengthParams) {
+        String cacheKey = getCacheKey(shapeType, color, lengthParams);
+        if (bitmapCache.containsKey(cacheKey)) {
+            return bitmapCache.get(cacheKey);
+        }
+
         Paint p = new Paint();
         p.setColor(color);
         p.setStyle(Paint.Style.FILL);
 
-        Bitmap bitmap = drawing.draw(new Canvas(), p,getMiddlePoint(context),lengthParams);
-                //getShape(context, shapeType, color, getMiddlePoint(context), lengthParams).getBitmap();
+        Bitmap bitmap = getDrawing(shapeType).draw(new Canvas(), p, getMiddlePoint(context), lengthParams);
+        //getShape(context, shapeType, color, getMiddlePoint(context), lengthParams).getBitmap();
         bitmapCache.put(cacheKey, bitmap);
         return bitmap;
     }
@@ -64,19 +74,8 @@ public class ShapeFactory {
     }
 
     public static DrawingView getShape(Context context, ShapeType shapeType, int color, Point point, float... lengthParams) {
-        Drawing drawing;
-        switch (shapeType) {
-            case circle:
-                drawing = new CircleDrawing();
-            case rectangle:
-                drawing = new RectangleDrawing();
-            case polygon:
-                drawing = new PolygonDrawing();
-            default:
-                drawing = new CircleDrawing();
-        }
-        DrawingView view = new DrawingView(context, drawing, color, point, lengthParams);
-        view.invalidate();
+
+        DrawingView view = new DrawingView(context, getDrawing(shapeType), color, point, lengthParams);
 
         return view;
     }

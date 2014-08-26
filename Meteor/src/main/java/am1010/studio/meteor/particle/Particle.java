@@ -42,12 +42,12 @@ public class Particle {
     private Matrix mMatrix;
     private Paint mPaint;
 
-    private float mInitialX;
-    private float mInitialY;
+    protected float mInitialX;
+    protected float mInitialY;
 
-    private float mRotation;
+    protected float mRotation;
 
-    private long mTimeToLive;
+    protected long mTimeToLive;
 
     protected long mStartingMilisecond;
 

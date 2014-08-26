@@ -8,6 +8,7 @@ package am1010.studio.meteor.particle;
 import am1010.studio.meteor.particle.initializers.*;
 import am1010.studio.meteor.particle.modifiers.AlphaModifier;
 import am1010.studio.meteor.particle.modifiers.ParticleModifier;
+import am1010.studio.meteor.view.Drawing;
 import android.animation.Animator;
 import android.animation.ValueAnimator;
 import android.app.Activity;
@@ -79,6 +80,13 @@ public class ParticleSystem {
         this(a, maxParticles, a.getResources().getDrawable(drawableRedId), timeToLive);
     }
 
+    public ParticleSystem(Activity a, int maxParticles, long timeToLive, Drawing drawing, int shapeColor, float... lenParams) {
+        this(a, maxParticles, timeToLive);
+        for (int i=0; i<mMaxParticles; i++) {
+            mParticles.add(new DrawingParticle(a, drawing, shapeColor, lenParams));
+        }
+
+    }
     /**
      * Utility constructor that receives a Drawable
      *

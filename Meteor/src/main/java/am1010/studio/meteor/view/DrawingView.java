@@ -7,6 +7,7 @@ package am1010.studio.meteor.view;
 
 import android.content.Context;
 import android.graphics.*;
+import android.util.AttributeSet;
 import android.view.View;
 
 /**
@@ -33,6 +34,14 @@ public class DrawingView extends View {
 
     public DrawingView(Context context) {
         super(context);
+    }
+
+    public DrawingView(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+
+    public DrawingView(Context context, AttributeSet attrs) {
+        super(context, attrs);
     }
 
     public DrawingView(Context context, Drawing drawing, int shapeColor, Point point, float... lenParams) {

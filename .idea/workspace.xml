@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState />
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -17,19 +19,21 @@
     <file path="/ShapeType.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408950076326" ignored="false" />
     <file path="/DrawingView.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408969419881" ignored="false" />
     <file path="/Drawing.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408968740266" ignored="false" />
-    <file path="/ShapeFactory.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408970402394" ignored="false" />
-    <file path="/CircleDrawing.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408969245054" ignored="false" />
+    <file path="/ShapeFactory.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408977228359" ignored="false" />
+    <file path="/CircleDrawing.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408981154006" ignored="false" />
     <file path="/PolygonDrawing.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408969323814" ignored="false" />
     <file path="/RectangleDrawing.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408969386601" ignored="false" />
     <file path="/MeteorView.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408956554655" ignored="false" />
     <file path="/ParticleField.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408953743284" ignored="false" />
     <file path="/fragment.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408968615171" ignored="false" />
-    <file path="/Meteor.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408963677423" ignored="false" />
-    <file path="/MainActivity.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408963823309" ignored="false" />
+    <file path="/Meteor.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408982470237" ignored="false" />
+    <file path="/MainActivity.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408982323194" ignored="false" />
     <file path="$PROJECT_DIR$/Meteor/build/res/all/debug/layout/activity_main.xml" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408963893155" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408965285271" ignored="false" />
-    <file path="/DrawingParticle.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408967695267" ignored="false" />
-    <file path="/Particle.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408967786191" ignored="false" />
+    <file path="/DrawingParticle.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408976844159" ignored="false" />
+    <file path="/Particle.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408976666010" ignored="false" />
+    <file path="/activity_main.xml" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408976389854" ignored="false" />
+    <file path="/ParticleSystem.java" changelist="3af78ffb-48c5-40d1-8c9a-b7453873caa4" time="1408977106292" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,158 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="129" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="115" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="60" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/CircleDrawing.java" line="18" class="am1010.studio.meteor.view.CircleDrawing" package="am1010.studio.meteor.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java" line="58" class="am1010.studio.meteor.view.DrawingView" package="am1010.studio.meteor.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java" line="71" class="am1010.studio.meteor.Meteor" package="am1010.studio.meteor">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/PolygonDrawing.java" line="15" class="am1010.studio.meteor.view.PolygonDrawing" package="am1010.studio.meteor.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java" line="53" class="am1010.studio.meteor.Meteor" package="am1010.studio.meteor">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/DrawingParticle.java" line="30" class="am1010.studio.meteor.particle.DrawingParticle" package="am1010.studio.meteor.particle">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/Particle.java" line="85" class="am1010.studio.meteor.particle.Particle" package="am1010.studio.meteor.particle">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,98 +236,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="130" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="116" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="50" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/CircleDrawing.java" line="21" class="am1010.studio.meteor.view.CircleDrawing" package="am1010.studio.meteor.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" line="77" class="am1010.studio.meteor.view.ShapeFactory" package="am1010.studio.meteor.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java" line="49" class="am1010.studio.meteor.view.DrawingView" package="am1010.studio.meteor.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -189,11 +253,35 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#507#840#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-              </folding>
+            <state line="33" column="51" selection-start="1257" selection-end="1658" vertical-scroll-proportion="-9.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meteor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="61" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.88495576">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticleSystem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/ParticleSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="178" column="46" selection-start="6399" selection-end="6415" vertical-scroll-proportion="-5.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScaleInitializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/initializers/ScaleInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="-8.04">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,45 +289,16 @@
       <file leaf-file-name="DrawingParticle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/DrawingParticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShapeFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+            <state line="35" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+      <file leaf-file-name="Drawing.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/Drawing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Handler.class" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="564" selection-end="579" vertical-scroll-proportion="0.2951654">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Meteor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
+            <state line="25" column="11" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -248,34 +307,34 @@
       <file leaf-file-name="CircleDrawing.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/CircleDrawing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
+            <state line="30" column="65" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolygonDrawing.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/PolygonDrawing.java">
+      <file leaf-file-name="Bitmap.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Bitmap.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="370" selection-end="515" vertical-scroll-proportion="0.0">
+            <state line="36" column="42" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RectangleDrawing.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/RectangleDrawing.java">
+      <file leaf-file-name="Canvas.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Canvas.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="22" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+            <state line="14" column="11" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawingView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java">
+      <file leaf-file-name="AnimatedParticle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/AnimatedParticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="983" selection-end="1084" vertical-scroll-proportion="0.0">
+            <state line="18" column="9" selection-start="629" selection-end="686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -292,21 +351,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/AnimatedParticle.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/ParticleSystem.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/MainActivity.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/initializers/SpeeddByComponentsInitializer.java" />
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/initializers/SpeeddModuleAndRangeInitializer.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/Particle.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/DrawingParticle.java" />
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/Drawing.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/CircleDrawing.java" />
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/PolygonDrawing.java" />
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/RectangleDrawing.java" />
-        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/Particle.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/DrawingParticle.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/ParticleSystem.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/CircleDrawing.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java" />
       </list>
     </option>
   </component>
@@ -314,10 +373,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-2" />
-    <option name="width" value="1320" />
-    <option name="height" value="780" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -375,108 +433,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="particle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="buildConfig" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -491,7 +447,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="copyright" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -528,6 +484,24 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -639,8 +613,8 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Meteor-Meteor" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="2" class="java.lang.String" itemvalue="Android Application.main" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.main" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.build" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -693,38 +667,40 @@
       <workItem from="1408965153683" duration="185000" />
       <workItem from="1408965358322" duration="67000" />
       <workItem from="1408965530241" duration="5121000" />
+      <workItem from="1408976223805" duration="5219000" />
+      <workItem from="1408981520757" duration="1801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18324000" />
+    <option name="totallyTimeSpent" value="25344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-2" width="1320" height="780" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="723" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967898" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.28731942" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.28731942" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24483307" sideWeight="0.60032105" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.60032105" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.67164177" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32504147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67330015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.67330015" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67330015" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
@@ -820,119 +796,110 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/ParticleSystem.java">
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="52" selection-start="3511" selection-end="3527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/ParticleField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/AnimatedParticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="374" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/Particle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2679" selection-end="2689" vertical-scroll-proportion="-7.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Canvas.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="16" selection-start="7215" selection-end="7215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="15" selection-start="484" selection-end="488" vertical-scroll-proportion="0.0">
+        <state line="58" column="0" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-13.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/PolygonDrawing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="370" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="24" column="19" selection-start="817" selection-end="817" vertical-scroll-proportion="-7.32">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/RectangleDrawing.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/Particle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/AnimatedParticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="629" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="11" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Canvas.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/DrawingParticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="35" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/DrawingView.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Bitmap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="983" selection-end="1084" vertical-scroll-proportion="0.0">
+        <state line="36" column="42" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/CircleDrawing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
+        <state line="30" column="65" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/view/ShapeFactory.java">
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/ParticleSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+        <state line="178" column="46" selection-start="6399" selection-end="6415" vertical-scroll-proportion="-5.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java">
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/particle/initializers/ScaleInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
+        <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="-8.04">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#507#840#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="33" column="51" selection-start="1257" selection-end="1658" vertical-scroll-proportion="-9.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
+    <entry file="file://$PROJECT_DIR$/Meteor/src/main/java/am1010/studio/meteor/Meteor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="564" selection-end="579" vertical-scroll-proportion="0.2951654">
+        <state line="71" column="61" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.88495576">
           <folding />
         </state>
       </provider>
